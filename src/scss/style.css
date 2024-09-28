@@ -4,7 +4,7 @@
 }
 .page-head .container .row {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .page-head .container .row .nav-img {
   width: 110px;
@@ -56,6 +56,10 @@
   padding: 10px 16px;
   cursor: pointer;
 }
+.page-head .container .row .nav-mid .nav-ul .pricing:hover {
+  background-color: #f8f4f4;
+  border-radius: 8px;
+}
 .page-head .container .row .nav-mid .nav-ul .cases {
   font-family: "Poppins", sans-serif;
   color: #2d2323;
@@ -69,6 +73,10 @@
   align-items: baseline;
   justify-content: center;
   gap: 6px;
+}
+.page-head .container .row .nav-mid .nav-ul .cases:hover {
+  background-color: #f8f4f4;
+  border-radius: 8px;
 }
 .page-head .container .row .nav-mid .nav-ul .cases .bi-chevron-down {
   font-size: 15px;
@@ -87,8 +95,67 @@
   justify-content: center;
   gap: 6px;
 }
+.page-head .container .row .nav-mid .nav-ul .resour:hover {
+  background-color: #f8f4f4;
+  border-radius: 8px;
+}
 .page-head .container .row .nav-mid .nav-ul .resour .bi-chevron-down {
   font-size: 15px;
+}
+.page-head .container .row .button-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.page-head .container .row .button-line .login {
+  background-color: white;
+  color: #2d2323;
+  border: 1px solid #e3e1e1;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.page-head .container .row .button-line .login:hover {
+  background-color: #f8f4f4;
+  border: transparent;
+  transform: rotate(-1deg);
+  outline: 0;
+}
+.page-head .container .row .button-line .demo {
+  background-color: white;
+  color: #2d2323;
+  border: 1px solid #e3e1e1;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.page-head .container .row .button-line .demo:hover {
+  background-color: #f8f4f4;
+  border: transparent;
+  transform: rotate(-1deg);
+  outline: 0;
+}
+.page-head .container .row .button-line .start {
+  background-color: #4f75fe;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 11px 25px 10px;
+  border-radius: 30px;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.page-head .container .row .button-line .start:hover {
+  background-color: #254cda;
+  transform: rotate(-2deg);
 }
 
 * {
