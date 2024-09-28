@@ -2,6 +2,95 @@
 .page-head {
   width: 100%;
 }
+.page-head .container .row {
+  display: flex;
+  align-items: center;
+}
+.page-head .container .row .nav-img {
+  width: 110px;
+  height: 23px;
+}
+.page-head .container .row .nav-img .logo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+.page-head .container .row .nav-mid .nav-ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page-head .container .row .nav-mid .nav-ul .product {
+  font-family: "Poppins", sans-serif;
+  color: #2d2323;
+  font-size: 18px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 120%;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+}
+.page-head .container .row .nav-mid .nav-ul .product:hover {
+  background-color: #f8f4f4;
+  border-radius: 8px;
+}
+.page-head .container .row .nav-mid .nav-ul .product .bi-chevron-down {
+  font-size: 15px;
+}
+.page-head .container .row .nav-mid .nav-ul .pricing {
+  font-family: "Poppins", sans-serif;
+  color: #2d2323;
+  font-size: 18px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 120%;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+.page-head .container .row .nav-mid .nav-ul .cases {
+  font-family: "Poppins", sans-serif;
+  color: #2d2323;
+  font-size: 18px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 120%;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+}
+.page-head .container .row .nav-mid .nav-ul .cases .bi-chevron-down {
+  font-size: 15px;
+}
+.page-head .container .row .nav-mid .nav-ul .resour {
+  font-family: "Poppins", sans-serif;
+  color: #2d2323;
+  font-size: 18px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 120%;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+}
+.page-head .container .row .nav-mid .nav-ul .resour .bi-chevron-down {
+  font-size: 15px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

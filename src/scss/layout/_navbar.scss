@@ -1,25 +1,101 @@
 .page-head {
   width: 100%;
+
   .container {
     .row {
+      display: flex;
+      align-items: center;
+
       .nav-img {
+        width: 110px;
+        height: 23px;
+
         .logo {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          cursor: pointer;
         }
       }
+
       .nav-mid {
         .nav-ul {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
           .product {
+            font-family: "Poppins", sans-serif;
+            color: #2d2323;
+            font-size: 18px;
+            font-weight: 500;
+            height: 46px;
+            line-height: 120%;
+            padding: 10px 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 6px;
+            &:hover{
+              background-color: #f8f4f4;
+              border-radius: 8px;
+            }
+
             .bi-chevron-down {
+              font-size: 15px;
             }
           }
+
           .pricing {
+            font-family: "Poppins", sans-serif;
+            color: #2d2323;
+            font-size: 18px;
+            font-weight: 500;
+            height: 46px;
+            line-height: 120%;
+            padding: 10px 16px;
+            cursor: pointer;
+
           }
+
           .cases {
+            font-family: "Poppins", sans-serif;
+            color: #2d2323;
+            font-size: 18px;
+            font-weight: 500;
+            height: 46px;
+            line-height: 120%;
+            padding: 10px 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 6px;
+
             .bi-chevron-down {
+              font-size: 15px;
             }
           }
+
           .resour {
+            font-family: "Poppins", sans-serif;
+            color: #2d2323;
+            font-size: 18px;
+            font-weight: 500;
+            height: 46px;
+            line-height: 120%;
+            padding: 10px 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 6px;
+
             .bi-chevron-down {
+              font-size: 15px;
             }
           }
         }
