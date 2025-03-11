@@ -1,0 +1,64 @@
+#head-sec {
+    .container {
+        .row {
+            .homehero {
+                .icon-cover {
+                    width: 150px;
+                    height: 80px;
+
+                    .cover-icon {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+                .cover-text {
+                    .applicant {}
+    
+                    .hiring {}
+                }
+    
+                .hero-btn {
+                    .demo {
+                        background-color: white;
+                        color: #2d2323;
+                        border: 1px solid #e3e1e1;
+                        border-radius: 30px;
+                        padding: 10px 20px;
+                        font-size: 18px;
+                        font-weight: 400;
+                        transition: all .1s;
+                        cursor: pointer;
+    
+                        &:hover {
+                            background-color: #f8f4f4;
+                            border: transparent;
+                            transform: rotate(-1deg);
+                            outline: 0;
+                        }
+                    }
+    
+                    .start {
+                        background-color: #4f75fe;
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 400;
+                        padding: 11px 25px 10px;
+                        border-radius: 30px;
+                        border: transparent;
+                        cursor: pointer;
+                        transition: all .1s;
+    
+                        &:hover {
+                            background-color: #254cda;
+                            transform: rotate(-2deg);
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

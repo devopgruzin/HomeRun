@@ -158,6 +158,51 @@
   transform: rotate(-2deg);
 }
 
+#head-sec .container .row .homehero .icon-cover {
+  width: 150px;
+  height: 80px;
+}
+#head-sec .container .row .homehero .icon-cover .cover-icon {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#head-sec .container .row .homehero .hero-btn .demo {
+  background-color: white;
+  color: #2d2323;
+  border: 1px solid #e3e1e1;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+#head-sec .container .row .homehero .hero-btn .demo:hover {
+  background-color: #f8f4f4;
+  border: transparent;
+  transform: rotate(-1deg);
+  outline: 0;
+}
+#head-sec .container .row .homehero .hero-btn .start {
+  background-color: #4f75fe;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 11px 25px 10px;
+  border-radius: 30px;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+#head-sec .container .row .homehero .hero-btn .start:hover {
+  background-color: #254cda;
+  transform: rotate(-2deg);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
