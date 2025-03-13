@@ -647,6 +647,40 @@
   border-radius: 1.25rem;
 }
 
+#pricing .container .row .h-new-cta-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+#pricing .container .row .h-new-cta-pricing .pricing-img {
+  width: 130px;
+  height: 68px;
+}
+#pricing .container .row .h-new-cta-pricing .pricing-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#pricing .container .row .h-new-cta-pricing .pricing-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 7px;
+  color: #4a3e3e;
+  font-size: 1.375rem;
+  line-height: 1.45;
+  font-weight: 400;
+}
+#pricing .container .row .h-new-cta-pricing .pricing-text p {
+  color: #4f75fe;
+  cursor: pointer;
+}
+
 .page-foot {
   margin-top: 27px;
 }
@@ -852,4 +886,29 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1736px);
+  }
+}
+.slider {
+  height: 100px;
+  margin: 50px 40px;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: 3472px;
+}
+.slider .slide {
+  height: 96px;
+  width: 248px;
 }/*# sourceMappingURL=style.css.map */
