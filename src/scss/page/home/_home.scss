@@ -361,6 +361,7 @@
 
 #land-new {
     padding: 2rem;
+
     .container {
         background-color: #f0a8fa;
         border-radius: 2.5rem;
@@ -428,9 +429,7 @@
                     }
                 }
 
-                .land-new-right {
-                    img {}
-                }
+
             }
 
             .origincontainer {
@@ -485,6 +484,95 @@
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#features {
+    margin: 25px;
+
+    .container {
+        background-color: #faf9f7;
+        border-radius: 2.5rem;
+        padding: 3rem 4rem;
+        overflow: hidden;
+        position: relative;
+
+        .row {
+            .h-new-features {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .h-new-feat-img {
+                    width: 102px;
+                    height: 66px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .manage {
+                    color: #1e1818;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-size: 3rem;
+                    line-height: 100%;
+                    font-weight: 900;
+                }
+
+                .holidays {
+                    font-size: 1.375rem;
+                    line-height: 1.4;
+                    color: #4a3e3e;
+                    font-weight: 400;
+                    max-width: 560px;
+                }
+
+                .accordion {
+                    .accordion-item {
+                        margin: 4px 0px;
+                    }
+                }
+
+                .explore {
+                    background-color: #4f75fe;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding: 8px 25px;
+                    line-height: 2;
+                    border-radius: 0.75rem;
+                    border: transparent;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+
+                    &:hover {
+                        background-color: #254cda;
+                    }
+                }
+
+                .right-img {
+                    width: 990px;
+                    height: 690px;
+                    position: absolute;
+                    right: -34%;
+                    top: 8%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                        box-shadow: 0 0 0 8px #1f1818;
+                        border-radius: 1.25rem;
                     }
                 }
             }
